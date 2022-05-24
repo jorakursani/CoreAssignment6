@@ -1,0 +1,57 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  margin: 0 30px;
+}
+.header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.centered {
+  text-align: center;
+}
+img {
+  width: 60px;
+  height: 60px;
+}
+.btn-like {
+  border: 2px solid black;
+  cursor: pointer;
+  box-shadow: 2px 3px black;
+  background-color: #e0b267;
+  font-size: 1em;
+  width: 70px;
+}
+
+.row {
+  display: flex;
+}
+.left-col {
+  flex: 1;
+}
+
+.profile {
+  height: 300px;
+  text-align: center;
+}
+
+.profile-img {
+  margin-top: 40px;
+}
+
+.right-col {
+  flex: 2;
+  margin-left: 30px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card {
+  border: 3px solid black;
+  padding: 15px;
+  margin-top: 30px;
+}
